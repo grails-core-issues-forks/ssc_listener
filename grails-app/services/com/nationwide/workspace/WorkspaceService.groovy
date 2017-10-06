@@ -10,6 +10,6 @@ class WorkspaceService {
 
     void setupSessionAfterLogin(String username) {
         User u = User.findByUsername(username)
-        log.info ( 'Username retrieved from database: {}', u.username)
+        log.debug ( 'Username retrieved from database: {}', u.username)
     }
 }
