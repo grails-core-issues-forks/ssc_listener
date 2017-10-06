@@ -6,7 +6,6 @@ import grails.util.Holders
 import groovy.transform.CompileDynamic
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.context.ApplicationContext
 import org.springframework.context.ApplicationListener
 import org.springframework.security.authentication.event.InteractiveAuthenticationSuccessEvent
 
