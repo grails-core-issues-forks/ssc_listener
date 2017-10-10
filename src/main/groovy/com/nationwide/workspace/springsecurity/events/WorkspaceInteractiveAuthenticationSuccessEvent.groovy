@@ -31,7 +31,6 @@ class WorkspaceInteractiveAuthenticationSuccessEvent implements ApplicationListe
 
     }
 
-    @Transactional
     void handleInteractiveAuthenticationWithUsername(String userName) {
         workspaceService.setupSessionAfterLogin(userName)
     }
