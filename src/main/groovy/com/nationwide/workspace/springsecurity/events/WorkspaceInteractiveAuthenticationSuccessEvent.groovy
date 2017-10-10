@@ -1,8 +1,6 @@
 package com.nationwide.workspace.springsecurity.events
 
 import com.nationwide.workspace.WorkspaceService
-import grails.transaction.Transactional
-import grails.util.Holders
 import groovy.transform.CompileDynamic
 import groovy.transform.CompileStatic
 import groovy.util.logging.Slf4j

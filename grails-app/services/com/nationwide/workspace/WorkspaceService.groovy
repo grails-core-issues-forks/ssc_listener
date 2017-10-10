@@ -1,7 +1,7 @@
 package com.nationwide.workspace
 
 import demo.User
-import grails.transaction.Transactional
+import grails.gorm.transactions.Transactional
 import groovy.util.logging.Slf4j
 
 @Slf4j
